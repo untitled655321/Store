@@ -18,6 +18,8 @@ gem 'pg', group: :production
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 
+#stripe for takeing payments
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 #add twitter bootstrat
 gem 'bootstrap-sass'
 # Use Puma as the app server
